@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Tree from './Tree'
+import data from './data'
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
+const App = () => <Tree data={data} width={600} height={500} />
 
 ReactDOM.render(
   <React.StrictMode>

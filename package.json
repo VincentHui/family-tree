@@ -6,9 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@vx/gradient": "0.0.153",
+    "@vx/group": "0.0.153",
+    "@vx/hierarchy": "0.0.153",
+    "@vx/shape": "0.0.158",
+    "classnames": "2.2.5",
+    "d3-hierarchy": "1.1.5",
+    "prop-types": "15.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-spring": "3.2.0-beta.11"
   },
   "scripts": {
     "start": "react-scripts start",
