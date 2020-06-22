@@ -59,7 +59,7 @@ export default class extends React.Component {
       <div>
         <svg width={width} height={height}>
           <LinearGradient id="lg" from="#fd9b93" to="#fe6e9e" />
-          <rect width={width} height={height} rx={14} fill="#272b4d" />
+          <rect width={width} height={height} fill="#272b4d" />
           <Tree
             top={margin.top}
             left={margin.left}

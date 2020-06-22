@@ -5,7 +5,7 @@ import data from './data'
 import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
-const App = () => <Tree data={data} width={600} height={500} />
+const App = () => <Tree data={data} width={window.innerWidth} height={window.innerHeight} />
 
 ReactDOM.render(
   <React.StrictMode>
